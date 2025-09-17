@@ -1,0 +1,67 @@
+  .app{
+    background-color: aqua;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px;
+    border:10px;
+    padding: 30px;
+    
+   
+  };
+
+  .quiz{
+    padding: 20px;
+
+  }
+  #quiz-questions{
+    font-size: 30px;
+    color: brown;
+  
+
+  }
+  #score-display{
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn{
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 10px 0;
+    
+  }
+  .btn:hover:not([disabled]){
+    background:orange;
+  }
+  .btn:disabled{
+    cursor: no-drop;
+  }
+  #next-btn{
+    background: blue;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin:  20px auto 0;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+  }
+
+  /* add classlist to select the right or wrong answer */
+  .correct{
+    background: green;
+  }
+  .incorrect{
+    background: red;
+  }
+
+  
+body{
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+}
